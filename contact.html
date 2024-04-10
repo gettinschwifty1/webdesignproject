@@ -8,9 +8,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="description" content="">
         <meta name="keywords" content="">
-        <title> ResQ-Ready Contact </title>
-        <link rel="icon" href="images/favicon.jpg" type="image/gif" sizes="16x16"/>
-        <link rel="stylesheet" href="styles/styles.css"/>
+        <title> ResQ-Ready Con </title>
+        <link rel="icon" href="images/favicon.jpg" type="image/gif" sizes="16x16">
+        <link rel="stylesheet" href="styles/styles.css">
         
 
         <style>
@@ -27,7 +27,7 @@
                 width: 66%;
                 height: 350px;
                 float:left;
-                border-right: 1% solid #000000 ;
+                border-right: 1% solid #000000;
             }
         </style>
     </head>
@@ -74,12 +74,14 @@
            </p>
            <p>
                 <label for="contactType">Type of contact : </label>
-                <input type="radio" id ="contactType" name="contactType" value="Booking"> Booking
-                <input type="radio" id ="contactType" name="contactType" value="General"> General Inquiries
+                <input type="radio" class ="contactType" name="contactType" value="Booking"> Booking
+                <input type="radio" class ="contactType" name="contactType" value="General"> General Inquiries
            </p>
            <p>
                 <label for="message">Query : </label>
                 <textarea cols="35" rows="6" id="messageBox" name="message" placeholder="Please enter your query details eg. preferred date, number of people, etc.."></textarea>
+                <input type="submit" name="submit" id="button" value="submit">
+                <input type="reset" name="reset" id="reset">
            </p>
         </aside>
         
