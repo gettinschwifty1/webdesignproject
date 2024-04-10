@@ -62,3 +62,55 @@ footer ul{
 footer ul li{
     display: inline;
 }
+table{
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: x-large;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 10%;
+}
+table caption{
+    border: 2px solid black;
+}
+th,td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 6px;
+}
+thead th{
+    width: 20%;
+}
+label{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+#button,#reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: coral;
+    border: 2px solid black;
+}
+input[type = checkbox]{
+    width: 15px;
+}
+#button{
+    margin-left: 138px;
+}
+#reset{
+    margin-left: 45px;
+}
+input[type= radio]{
+    width: 10px;
+}
