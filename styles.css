@@ -1,0 +1,87 @@
+main
+{
+    
+    background-color: #E5E4E2;
+    border: 1px solid #000000 ;
+}
+.logo{
+    float: left;
+    padding: 3px;
+}
+header{
+    border: 2px solid black;
+    background-color: #b2beb5;
+    height: 97px;
+    padding-bottom: 5px;
+}
+nav{
+    background-color: rgb(0, 127, 63);
+    height: 60px;
+    padding: 1%;
+    border: 2px solid rgb(138,173,78);
+    text-decoration:none;
+    
+    
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: #d3d3d3;
+    display: inline;
+    border: 3px solid rgb(138,173,78);
+    padding: 15px;
+    margin: 2px;   
+    
+}
+#active{
+    background-color: rgb(138, 173, 78);
+}
+h2{
+    border: 2px solid black;
+}
+footer{
+    clear: both;
+    border-top: 2px solid darkgreen;
+    background-color: #b2beb5;
+    height: 60px;
+}
+footer p{
+    float: right;
+    padding-right: 5px;
+}
+footer ul{
+    text-align: center;
+}
+footer ul li{
+    display: inline;
+}
+table{
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: x-large;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 10%;
+}
+table caption{
+    border: 2px solid black;
+}
+th,td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 6px;
+}
+thead th{
+    width: 20%;
+}
