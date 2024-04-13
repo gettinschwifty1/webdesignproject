@@ -12,20 +12,21 @@
         <link rel="icon" href="images/favicon.jpg" type="image/gif" sizes="16x16">
         <link rel="stylesheet" href="styles/styles.css">
         
+        
 
         <style>
             aside
             {
-                height: 350px;
+                height: 400px;
                 width: 33.5%;
                 float: right;
                 background-color: #d3d3d3;
-                
+                border: 1px solid #000000;
                 
             }
             main{
                 width: 66%;
-                height: 350px;
+                height: 400px;
                 float:left;
                 border-right: 1% solid #000000;
             }
@@ -57,7 +58,7 @@
                 Email:    info@resqready.ie <!--Not a real email address-->
             </p>
             <p>
-                Phone number: <a href="https://www.randomphonenumbergenerator.com/ireland/">+3531808704151</a> <!--Random phone number -->
+                Phone number: <a href="https://www.randomphonenumbergenerator.com/ireland/" style="text-decoration: none ;">+3531808704151</a> <!--Random phone number -->
             </p>
         </main>
         <aside>
@@ -66,29 +67,31 @@
             </h2>
             <form action="http://foo.com" method="get">
                 <p>
-                        <label for="name" >Name : </label>
+                        <label for="name" >Name <span class="required">*</span> : </label>
                         
-                        <textarea cols="35" rows="1" id="nameBox" name="name" placeholder="Please enter your full name here"></textarea>
+                        <textarea cols="35" rows="1" id="nameBox" name="name" placeholder="Please enter your full name here"></textarea><br>
                         
 
                 </p>
                 <p>
-                        <label for="Email">Email : </label>
+                        <label for="Email">Email <span class="required">*</span> : </label>
                         
-                        <textarea cols="35" rows="1" id="EmailBox" name="Email" placeholder="Please enter your E-mail address"></textarea>
+                        <textarea cols="35" rows="1" id="EmailBox" name="Email" placeholder="Please enter your E-mail address"></textarea><br>
                         
                 </p>
                 <p>
-                        <label for="contactType">Type of contact : </label>
+                        <label for="contactType">Type of contact<span class="required">*</span>: </label>
                         <input type="radio" class ="contactType" name="contactType" value="Booking"> Booking
                         <input type="radio" class ="contactType" name="contactType" value="General"> General Inquiries
+                        <br>
                 </p>
                 <p>
-                        <label for="message">Query : </label>
-                        <textarea cols="35" rows="6" id="messageBox" name="message" placeholder="Please enter your query details eg. preferred date, number of people, etc.."></textarea>
+                        <label for="message">Query <span class="required">*</span> : </label>
+                        <textarea cols="35" rows="6" id="messageBox" name="message" placeholder="Please enter your query details eg. preferred date, number of people, etc.."></textarea><br>
                         <input type="submit" name="submit" id="button" value="submit">
                         <input type="reset" name="reset" id="reset">
                 </p>
+                <p><span class="required">*</span> <em>Indicates a required field</em></p>
             </form>
         </aside>
         
