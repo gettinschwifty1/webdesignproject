@@ -44,7 +44,12 @@ nav ul li
     padding: 15px;
     margin: 2px;   
     
+    
 }
+ul li a{
+    text-decoration: none;
+}
+
 #active{
     background-color: rgb(138, 173, 78);
 }
